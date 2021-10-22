@@ -35,7 +35,7 @@ body {
 
 .resume .resume_left {
   width: 280px;
-  background: #0b49f4;
+  background: rgb(11, 181, 244);
 }
 
 .resume .resume_left .resume_profile {
@@ -136,7 +136,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: rgb(255, 3, 3);
+  background: rgb(0, 0, 0);
 }
 
 .resume .resume_left .resume_social .semi-bold {
@@ -231,4 +231,19 @@ body {
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
+}
+.language{}
+
+.language-title{
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 7px;
+}
+.language-item{
+  list-style-type: circle;
+  color: #fff;
+  margin: 9px;
 }
